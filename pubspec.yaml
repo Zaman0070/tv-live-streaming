@@ -1,0 +1,111 @@
+name: newsextra
+description: A new Flutter project.
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  fast_i18n: ^1.7.0      
+  dio: ^4.0.0
+  provider: ^6.0.2
+  transparent_image: ^1.0.0
+  toast: ^0.1.5
+  pull_to_refresh: ^2.0.0
+  share: ^0.6.4+3
+  cached_network_image: ^3.0.0
+  shared_preferences: ^2.0.5
+  flutter_sim_country_code: ^0.1.2
+  better_player: ^0.0.73
+  youtube_player_flutter: ^8.0.0
+  flutter_web_browser: "^0.14.0"
+  google_sign_in: ^4.5.1
+  email_validator: '^1.0.0'
+  font_awesome_flutter: ^8.8.1
+  flutter_facebook_login: ^3.0.0
+  apple_sign_in: ^0.1.0
+  firebase_analytics: ^9.1.0
+  firebase_core: ^1.12.0
+  firebase_messaging: ^11.2.6
+  flutter_local_notifications: ^5.0.0-nullsafety.1
+  network_image_to_byte: ^0.0.1
+  intl: ^0.17.0
+  sqflite:
+  path: 
+  device_id: ^0.2.0
+  admob_flutter: ^2.0.0
+  launch_review: ^3.0.1
+  geolocator: ^5.0.0
+  permission_handler: ^8.3.0
+  app_settings: 4.1.1
+  flutter_native_admob: ^2.1.0+3
+  badges: ^1.1.6
+  line_awesome_flutter: ^1.0.1
+  shimmer: ^1.1.1
+  audiofileplayer: ^2.1.0
+  palette_generator: ^0.2.3
+  file_utils: ^0.1.3
+  path_provider: ^2.0.8
+  flutter_downloader: ^1.4.4
+  in_app_purchase: ^1.0.0
+  flutter_share: ^1.0.2+1
+  package_info: ^0.4.1
+  flutter_widget_from_html_core: any
+  fwfh_webview: ^0.6.1+2
+  record: ^3.0.0
+  facebook_audience_network: ^1.0.1
+  flutter_dialogs: ^1.1.0
+  file_picker: ^3.0.1
+  flutter_absolute_path: ^1.0.6
+  select_dialog: ^1.1.0
+  vimeo_player_flutter: ^0.0.3
+  flutter_restart: ^0.0.3
+  event_bus: ^1.1.1
+  audio_session: ^0.1.0
+  rate_my_app: ^1.1.1
+  
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: any     
+  flutter_launcher_icons: "^0.9.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"    
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  # An image asset can refer to on
+  fonts:
+    - family: WeatherIcons
+      fonts:
+        - asset: fonts/weathericons-regular.ttf
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/WorkSans-Regular.ttf
+        - asset: assets/fonts/WorkSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/WorkSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSans-Bold.ttf
+          weight: 700        
